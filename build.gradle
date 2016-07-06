@@ -1,0 +1,27 @@
+group 'org.courcera'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    // https://mvnrepository.com/artifact/org.codehaus.groovy/groovy-all
+    testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.7'
+
+    // https://mvnrepository.com/artifact/org.spockframework/spock-core
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.0-groovy-2.4'
+// https://mvnrepository.com/artifact/cglib/cglib-nodep
+    testCompile group: 'cglib', name: 'cglib-nodep', version: '3.2.4'
+    // https://mvnrepository.com/artifact/org.objenesis/objenesis
+    testCompile group: 'org.objenesis', name: 'objenesis', version: '2.4'
+
+
+}
