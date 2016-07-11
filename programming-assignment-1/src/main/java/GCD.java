@@ -1,6 +1,5 @@
-/**
- * Created by iuriis on 05.07.2016.
- */
+import java.util.Scanner;
+
 public class GCD {
     public static long naiveGcd(long a, long b) {
         int best = 1;
@@ -12,7 +11,7 @@ public class GCD {
         return best;
     }
 
-    public static long euclidGcd(long a, long b) {
+    public static int euclidGcd(int a, int b) {
         if (a == 1 || b == 1) {
             return 1;
         }
@@ -28,11 +27,19 @@ public class GCD {
         return euclidGcd(a, getNewNumberToCheck(b, a));
     }
 
-    private static long getNewNumberToCheck(long a, long b) {
-        long newNumber = a - b;
-        while(newNumber>b){
-            newNumber-=b;
+    private static int getNewNumberToCheck(int a, int b) {
+        int newNumber = a - b;
+        while (newNumber > b) {
+            newNumber -= b;
         }
         return newNumber;
+    }
+
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        System.out.println(euclidGcd(a, b));
     }
 }
