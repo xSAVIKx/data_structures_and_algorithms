@@ -1,3 +1,4 @@
-rootProject.name = 'datastructuresandalgorithms'
+rootProject.name = 'data-structures-and-algorithms'
 include 'programming-assignment-1'
+include 'shared'
 

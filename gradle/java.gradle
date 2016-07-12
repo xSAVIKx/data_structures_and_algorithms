@@ -1,0 +1,16 @@
+apply plugin: "java"
+apply plugin: "groovy"
+
+test {
+    testLogging.showStandardStreams = true
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+}
+
+tasks.withType(JavaCompile.class) {
+    options.deprecation = false
+    options.warnings = false
+    options.encoding = sourceEncoding
+    options.compilerArgs = ["-Xmaxerrs", "20", "-Xmaxwarns", "0", "-Xlint:all"]
+}

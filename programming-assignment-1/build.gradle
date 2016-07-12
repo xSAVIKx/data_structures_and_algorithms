@@ -1,19 +1,2 @@
-group 'org.courcera'
-version '1.0-SNAPSHOT'
-
-apply plugin: 'groovy'
-apply plugin: 'java'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
-    testCompile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.7'
-    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.0-groovy-2.4'
-    testCompile group: 'cglib', name: 'cglib-nodep', version: '3.2.4'
-    testCompile group: 'org.objenesis', name: 'objenesis', version: '2.4'
-}
+apply from: "$rootDir/gradle/java.gradle"
+apply from: "$rootDir/gradle/test-dependencies.gradle"
