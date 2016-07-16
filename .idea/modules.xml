@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-structures-and-algorithms.iml" filepath="$PROJECT_DIR$/.idea/modules/data-structures-and-algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-structures-and-algorithms_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-structures-and-algorithms_main.iml" group="data-structures-and-algorithms" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-structures-and-algorithms_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-structures-and-algorithms_test.iml" group="data-structures-and-algorithms" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-assignment-1/programming-assignment-1.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-assignment-1/programming-assignment-1.iml" group="programming-assignment-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-assignment-1/programming-assignment-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-assignment-1/programming-assignment-1_main.iml" group="programming-assignment-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-assignment-1/programming-assignment-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-assignment-1/programming-assignment-1_test.iml" group="programming-assignment-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-assignment-2/programming-assignment-2.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-assignment-2/programming-assignment-2.iml" group="programming-assignment-2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-assignment-2/programming-assignment-2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-assignment-2/programming-assignment-2_main.iml" group="programming-assignment-2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/programming-assignment-2/programming-assignment-2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/programming-assignment-2/programming-assignment-2_test.iml" group="programming-assignment-2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_main.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared_test.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared_test.iml" group="shared" />
+    </modules>
+  </component>
+</project>
