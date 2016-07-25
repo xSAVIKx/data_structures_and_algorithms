@@ -14,7 +14,6 @@ public class DifferentSummands {
         }
         int lastIndex = summands.size() - 1;
         summands.set(lastIndex, summands.get(lastIndex) + n - total);
-        //write your code here
         return summands;
     }
 
