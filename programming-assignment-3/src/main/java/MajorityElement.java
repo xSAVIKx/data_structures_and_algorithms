@@ -1,15 +1,29 @@
-import java.util.*;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.StringTokenizer;
 
 public class MajorityElement {
-    private static int getMajorityElement(int[] a, int left, int right) {
+    public static int getMajorityElement(int[] a, int left, int right) {
         if (left == right) {
             return -1;
         }
         if (left + 1 == right) {
             return a[left];
         }
-        //write your code here
+        HashMap<Integer, Integer> elementsCount = new HashMap<>();
+        for (int element : a) {
+            elementsCount.put(element, elementsCount.getOrDefault(element, 0) + 1);
+        }
+        int halfSize = a.length / 2;
+        for (Map.Entry<Integer, Integer> entry : elementsCount.entrySet()) {
+            if (entry.getValue() > halfSize) {
+                return entry.getKey();
+            }
+        }
         return -1;
     }
 
@@ -26,6 +40,7 @@ public class MajorityElement {
             System.out.println(0);
         }
     }
+
     static class FastScanner {
         BufferedReader br;
         StringTokenizer st;
