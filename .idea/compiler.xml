@@ -29,6 +29,8 @@
       <module name="programming-assignment-2_test" target="1.8" />
       <module name="programming-assignment-3_main" target="1.8" />
       <module name="programming-assignment-3_test" target="1.8" />
+      <module name="programming-assignment-4_main" target="1.8" />
+      <module name="programming-assignment-4_test" target="1.8" />
       <module name="shared_main" target="1.8" />
       <module name="shared_test" target="1.8" />
     </bytecodeTargetLevel>

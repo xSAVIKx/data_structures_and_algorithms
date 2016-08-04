@@ -1,6 +1,7 @@
 rootProject.name = 'data-structures-and-algorithms'
-include 'programming-assignment-1'
 include 'shared'
+include 'programming-assignment-1'
 include 'programming-assignment-2'
 include 'programming-assignment-3'
+include 'programming-assignment-4'
 
